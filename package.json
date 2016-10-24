@@ -1,0 +1,45 @@
+{
+  "name": "vue-filterable-list",
+  "version": "0.1.0",
+  "description": "A Vue component for filterable lists with inline templates",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/:spatie/vue-filterable-list.git"
+  },
+  "keywords": [
+    "spatie"
+  ],
+  "author": "Sebastian De Deyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/:spatie/vue-filterable-list/issues"
+  },
+  "homepage": "https://github.com/:spatie/vue-filterable-list",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-spatie": "^1.1.0",
+    "jsdom": "^9.8.0",
+    "mocha": "^3.1.2",
+    "mocha-jsdom": "^1.1.0",
+    "vue": "^2.0.3",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.3"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.5"
+  }
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <title>vue-filterable-list</title>
+  <style>
+    .-hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <my-filter-list inline-template>
+      <div>
+        <input type="text" v-model="query">
+        <ul>
+          <li v-list-item='"apple"'>Apple</li>
+          <li v-list-item='"banana"'>Banana</li>
+          <li v-list-item='"pear"'>Pear</li>
+        </ul>
+        <div><em>{{ results }} results of {{ totalResults }}</em></div>
+      </div>
+    </my-filter-list>
+  </div>
+  <script src="./build/index.js"></script>
+</body>
+</html>
