@@ -1,6 +1,6 @@
 {
   "name": "vue-filterable-list",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "A Vue component for filterable lists with inline templates",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
